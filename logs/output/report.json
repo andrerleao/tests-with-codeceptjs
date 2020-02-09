@@ -1,0 +1,183 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-02-09T05:30:12.174Z",
+    "end": "2020-02-09T05:30:25.537Z",
+    "duration": 13363,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "0a479532-e0f6-4255-a74a-5f2915374644",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "aea08db6-bdd1-414c-9186-cf5eea5aa307",
+          "title": "Feature hello",
+          "fullFile": "/home/admin/tests-with-codeceptjs/test_hello_world_test.js",
+          "file": "/test_hello_world_test.js",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook: codeceptjs.beforeSuite",
+              "fullTitle": "Feature hello \"before all\" hook: codeceptjs.beforeSuite",
+              "timedOut": false,
+              "duration": 5002,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteSetup(suite)",
+              "err": {},
+              "uuid": "55d6d395-077b-472f-8674-46d5abc98bdf",
+              "parentUUID": "aea08db6-bdd1-414c-9186-cf5eea5aa307",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"before each\" hook: codeceptjs.before",
+              "fullTitle": "Feature hello \"before each\" hook: codeceptjs.before",
+              "timedOut": false,
+              "duration": 7998,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.setup(suite)",
+              "err": {},
+              "uuid": "572e8bb2-bd40-4fc3-91f6-1a4f760d54bc",
+              "parentUUID": "aea08db6-bdd1-414c-9186-cf5eea5aa307",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook: codeceptjs.afterSuite",
+              "fullTitle": "Feature hello \"after all\" hook: codeceptjs.afterSuite",
+              "timedOut": false,
+              "duration": 12,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteTeardown(suite)",
+              "err": {},
+              "uuid": "d769091c-165f-4f34-8ccd-94d5a178904d",
+              "parentUUID": "aea08db6-bdd1-414c-9186-cf5eea5aa307",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"after each\" hook: finalize codeceptjs",
+              "fullTitle": "Feature hello \"after each\" hook: finalize codeceptjs",
+              "timedOut": false,
+              "duration": 153,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.teardown(suite)",
+              "err": {},
+              "uuid": "a347d1ab-d133-432c-8d6e-43203388ab16",
+              "parentUUID": "aea08db6-bdd1-414c-9186-cf5eea5aa307",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "test something",
+              "fullTitle": "Feature hello: test something",
+              "timedOut": false,
+              "duration": 72,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "I.say('teste do cenário hello world');",
+              "err": {},
+              "uuid": "36010cec-df7a-4016-a2be-191caf31b9ca",
+              "parentUUID": "aea08db6-bdd1-414c-9186-cf5eea5aa307",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "36010cec-df7a-4016-a2be-191caf31b9ca"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 72,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 0
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 0
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "6.2.2"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "report",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false
+      },
+      "version": "4.1.0"
+    },
+    "marge": {
+      "options": {
+        "reportDir": ".//logs//output",
+        "reportFilename": "report",
+        "reportPageTitle": "tests-with-codeceptjs - Acceptance Tests",
+        "reportTitle": "tests-with-codeceptjs - Acceptance Tests",
+        "autoOpen": true,
+        "enableCode": true,
+        "inlineAssets": true,
+        "overwrite": true,
+        "quiet": false
+      },
+      "version": "4.1.0"
+    }
+  }
+}
